@@ -18,12 +18,8 @@ public class StackSort {
         for (int i = 1; i <= 5; i++) {
             stack.push(i);
         }
-        System.out.println("StackSort////////////////////////");
+//        排序之前
         System.out.println(stack);
-//        System.out.println("StackSort////////////////////////");
-//        for (int i=0;i<5;i++){
-//            System.out.println(StackSort.pop());
-//        }
         Object temp = 0;
         Stack tempStack = new Stack();
 
@@ -46,13 +42,7 @@ public class StackSort {
             stack.push(tempStack.pop());
         }
 
-        System.out.println("StackSort////////////////////////");
+//        排序之后
         System.out.println(stack);
-        System.out.println("tempStack////////////////////////");
-        System.out.println(tempStack);
-//        System.out.println("////////////////////////");
-//        for (int i=0;i<5;i++){
-//            System.out.println(StackSort.pop());
-//        }
     }
 }
